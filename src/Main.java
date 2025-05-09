@@ -5,9 +5,9 @@ public class Main {
         System.out.println("Задача.1");
         int oc = 0;
         if (oc == 0) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
+            System.out.println("Установите версию приложения для iOS по ссылке.");
         } else if (oc == 1) {
-            System.out.println("Установите версию приложения для Android по ссылке");
+            System.out.println("Установите версию приложения для Android по ссылке.");
         }
         System.out.println("Задача2.");
         oc = 1;
