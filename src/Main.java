@@ -3,20 +3,20 @@ public class Main {
         System.out.println("Operator conditional.");
 
         System.out.println("Задача.1");
-        int oc = 0;
-        if (oc == 0) {
+        int clientOS = 0;
+        if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке.");
-        } else if (oc == 1) {
+        } else if (clientOS == 1) {
             System.out.println("Установите версию приложения для Android по ссылке.");
         }
         System.out.println("Задача2.");
-        oc = 1;
+        clientOS = 1;
         int clientDeviceYear = 2005;
-        if (oc == 0 && clientDeviceYear < 2015) {
+        if (clientOS == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке.");
-        } else if (oc == 0 && clientDeviceYear >= 2015) {
+        } else if (clientOS == 0 && clientDeviceYear >= 2015) {
             System.out.println("Установите обычную версию приложения для iOS по ссылке.");
-        } else if (oc == 1 && clientDeviceYear < 2015) {
+        } else if (clientOS == 1 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для android по ссылке.");
         } else {
             System.out.println("Установите обычную версию приложения для android по ссылке.");
@@ -40,27 +40,27 @@ public class Main {
             System.out.println("Доставки нет");
         }
         System.out.println("Задача 5.");
-        int mouthNumber = 8;
-        switch (mouthNumber) {
+        int monthNumber = 8;
+        switch (monthNumber) {
             case 12:
             case 1:
             case 2:
-                System.out.println(mouthNumber + "-й месяц принадлежит к зимнему сезону.");
+                System.out.println(monthNumber + "-й месяц принадлежит к зимнему сезону.");
                 break;
             case 3:
             case 4:
             case 5:
-                System.out.println(mouthNumber + "-й месяц принадлежит к весеннему сезону.");
+                System.out.println(monthNumber + "-й месяц принадлежит к весеннему сезону.");
                 break;
             case 6:
             case 7:
             case 8:
-                System.out.println(mouthNumber + "-й месяц принадлежит к летнему сезону.");
+                System.out.println(monthNumber + "-й месяц принадлежит к летнему сезону.");
                 break;
             case 9:
             case 10:
             case 11:
-                System.out.println(mouthNumber + "-й месяц принадлежит к осеннему сезону");
+                System.out.println(monthNumber + "-й месяц принадлежит к осеннему сезону");
             default:
                 System.out.println("Такого месяца не существует.");
         }
